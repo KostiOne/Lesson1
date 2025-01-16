@@ -295,11 +295,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="block.h" />
+    <ClInclude Include="colour.h" />
     <ClInclude Include="Grid.h" />
     <ClInclude Include="include\game.h" />
+    <ClInclude Include="position.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="block.cpp" />
+    <ClCompile Include="blocks.cpp" />
+    <ClCompile Include="colour.cpp" />
     <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="position.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>

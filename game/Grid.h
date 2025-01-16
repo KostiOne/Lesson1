@@ -6,14 +6,15 @@
 class Grid
 {
 public:
+	static const int rows =20;
 	Grid();
 	void Initialize();
 	void Print();
-	int grid[20][10];
+	int grid[rows][10];
 	void Draw();
+
 private:
 
-	std::vector<Color> GetCellColours();
 	int numRows;
 	int numCols;
 	int cellSize;
